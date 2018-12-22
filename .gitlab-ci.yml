@@ -3,4 +3,4 @@ pages:
     - date
   artifacts:
     paths:
-      - public
+      - .

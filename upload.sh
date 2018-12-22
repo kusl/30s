@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 cp /home/kus/Videos/obs/*.mp4 /home/kus/src/personal/30s;
+rm /home/kus/Videos/obs/*.mp4;
 cd /home/kus/src/personal/30s || exit;
 git add .;
 git commit -m "add everything `date +%Y%m%d%H%M%S`";
